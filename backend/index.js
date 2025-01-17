@@ -19,7 +19,7 @@ app.use(express.urlencoded({extended:true}));
 app.use(express.json());
 app.use(cookieParser());
 const corsOptions = {
-    origin:'http://localhost:3000',
+    origin:'https://netflix-by-hari-frontend.onrender.com/',
     credentials:true
 }
 app.use(cors(corsOptions));
